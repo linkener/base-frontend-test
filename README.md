@@ -16,7 +16,7 @@ To get the data you will need to:
  
 Fork this repository into your GitHub account and provide us a link to the fork with the following two items in the solution folder
 1) a working implementation of the wireframe using the backend service supplied. Your solution should use either vue, angular or react. Use any additional library you see fit.
-2) an markdown document (`solution/README.md`) describing 
+2) a markdown document (`solution/README.md`) describing:
     1) how to run your solution
     2) how to ensure that future modifications of the code will not break the existing functionality
     3) a description of your solution
