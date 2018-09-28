@@ -1,0 +1,46 @@
+{
+	"APP": {
+		"OPCION": {
+			 "LENGUA_ESPANIOL" 					: "Espa&#241;ol",
+			 "LENGUA_INGLES" 					: "Ingl&#233;s"
+		},
+		 "MASCARA.BUSCAR" 						: "Buscar",
+		 "COLOR.BLANCO.NEGRO"  					: "Blanco - Negro",
+		 "COLOR.NEGRO.BLANCO"  					: "Negro - Blanco",
+		 "COLOR.NEGRO.AMARILLO"  				: "Negro - Amarillo",
+		 "COLOR.AMARILLO.NEGRO" 				: "Amarillo - Negro"
+	},
+	"BTN":{
+		"ACEPTAR"								: "Aceptar",
+		"ACTUALIZAR"							: "Actualizar",
+		"AGREGAR"								: "Agregar",
+		"GUARDAR"								: "Guardar",
+		"BUSCAR"								: "Buscar"
+	},
+ 	"COMUN.ERROR" 								: "Error Generico enviado desde es.json",
+	"FRM": {
+		"ID" 									: "Id",
+		"VALUE1" 								: "Value1",
+		"VALUE2" 								: "Value2",
+		"TIMESTAMP" 							: "TIMESTAMP"
+	},
+	"MEN":{
+		"HOME"									: "Principal",
+		"SUB":{
+			"HOME"								: "Inicio"
+		}
+	},
+	"PAG": {
+		"TES":{
+			"TITULO"							: "Wireframe",
+			"SUBTITULO"							: "Pagina de Prueba por Linkener"
+		}
+	},
+	"TBL":{
+        "ID"									: "Id",
+		"ACCIONES"								: "Acción",
+		"VALUE1"								: "Valor 1",
+		"VALUE2"								: "Valor 2",
+		"TIMESTAMP"								: "Fecha y Hora"
+	}
+}

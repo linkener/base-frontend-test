@@ -1,0 +1,27 @@
+<ul class="nav navbar-top-links navbar-right"
+    data-ng-class="inicioCtrl.getClassResponsiveBar(model.isCollapsedBar)">
+    <!-- Idioma-->
+    <li id="itemIdioma"
+        class="dropdown"
+        tabindex="15">
+        <a  data-toggle="dropdown"
+            role="button"
+            data-ng-click="inicioCtrl.showHideResponsive()"
+            class="botonesMenuDerecha ">
+            <span>{{inicioCtrl.lenguajeActual | uppercase}}</span>
+           <i  class="icon-internacionalizacion-idiomas "></i>
+        </a>
+        <ul class="dropdown-menu menuIdioma">
+            <li  tts="{{ttsEnabled}}" data-ng-show="inicioCtrl.lenguajeActual != 'es'">
+                <a data-ng-click="switchLanguage('es');inicioCtrl.setIdioma('es');inicioCtrl.colapsarBarra()"  role="button">
+                    <strong  class="color-texto" data-translate>APP.OPCION.LENGUA_ESPANIOL</strong>
+                </a>
+            </li>
+            <li  tts="{{ttsEnabled}}" data-ng-show="inicioCtrl.lenguajeActual != 'en'">
+                <a data-ng-click="switchLanguage('en');inicioCtrl.setIdioma('en');inicioCtrl.colapsarBarra()"  role="button">
+                    <strong  class="color-texto" data-translate>APP.OPCION.LENGUA_INGLES</strong>
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
