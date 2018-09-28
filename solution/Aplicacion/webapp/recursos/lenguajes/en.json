@@ -1,0 +1,46 @@
+{
+	"APP": {
+		"OPCION": {
+			 "LENGUA_ESPANIOL" 					: "Espa&#241;ol",
+			 "LENGUA_INGLES" 					: "Ingl&#233;s"
+		},
+		 "MASCARA.BUSCAR" 						: "Buscar",
+		 "COLOR.BLANCO.NEGRO"  					: "Blanco - Negro",
+		 "COLOR.NEGRO.BLANCO"  					: "Negro - Blanco",
+		 "COLOR.NEGRO.AMARILLO"  				: "Negro - Amarillo",
+		 "COLOR.AMARILLO.NEGRO" 				: "Amarillo - Negro"
+	},
+	"BTN":{
+		"ACEPTAR"								: "Acept",
+		"ACTUALIZAR"							: "Update",
+		"AGREGAR"								: "Add",
+		"GUARDAR"								: "Save",
+		"BUSCAR"								: "Search"
+	},
+ 	"COMUN.ERROR" 								: "Error Generic",
+	"FRM": {
+		"ID" 									: "Id",
+		"VALUE1" 								: "Value1",
+		"VALUE2" 								: "Value2",
+		"TIMESTAMP" 							: "Timestamp"
+	},
+	"MEN":{
+		"HOME"									: "Home",
+		"SUB":{
+			"HOME"								: "Index"
+		}
+	},
+	"PAG": {
+		"TES":{
+			"TITULO"							: "Wireframe",
+			"SUBTITULO"							: "Test for Linkener"
+		}
+	},
+	"TBL":{
+        "ID"									: "Id",
+		"ACCIONES"								: "Action",
+		"VALUE1"								: "Value 1",
+		"VALUE2"								: "Value 2",
+		"TIMESTAMP"								: "Timestamp"
+	}
+}

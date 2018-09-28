@@ -1,0 +1,15 @@
+[
+    {
+        "nombre": "MEN.HOME",
+        "url": "sri-web.accesso",
+        "icono": "icon-home-agencias",
+        "id": 3,
+        "ngclass": "{active: collapseVar==1}",
+        "subItems": [
+            {
+                "nombre": "MEN.SUB.HOME",
+                "url": "sri-web.wireframe"
+            }
+        ]
+    }
+]

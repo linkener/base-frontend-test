@@ -1,0 +1,50 @@
+<style>
+	canvas{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+</style>
+<div 	data-ng-controller="WifeframeControlador as wireCtrl"
+		data-ng-init="wireCtrl.init()"
+		class="container">
+<!--Seccion Encabezado -->
+	<div class="page-header">
+		<hgroup>
+			<h1 data-translate>{{wireCtrl.lbl.pag.tes.titulo}}</h1>
+			<h2 data-translate>{{wireCtrl.lbl.pag.tes.subtitulo}}</h2>
+			<p> </p>
+		</hgroup>
+	</div>
+<!--Seccion Notificaciones -->
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-xs-12">
+			<uib-alert 	id="idAlerta"
+						name="idAlerta"
+						data-ng-repeat="alert in wireCtrl.alerts| orderBy:'type'"
+						type="{{alert.type}}"
+						close="wireCtrl.cerrarAlerta($index)">
+				<span data-translate>{{alert.msg}}</span>
+			</uib-alert>
+		</div>
+	</div>
+<!--Seccion Contenido -->
+	<div style="width:100%;">
+		<canvas id="canvas"
+				name="canvas"
+				data-ng-model="wireCtrl.canvas"/>
+	</div>
+	<br>
+<!--Seccion Tabla -->
+	<div class="table-responsive">
+		<table	id="tblAdministrar"
+				name="tblAdministrar"
+				class="table table-responsive table-bordered table-striped table-hover"
+				data-datatable=""
+				data-dt-options="wireCtrl.dtAdministrarOptions"
+				data-dt-columns="wireCtrl.dtAdministrarColumns"
+				data-dt-instance="wireCtrl.dtAdministrar">
+			<thead class="cabecera-principal text-center"></thead>
+		</table>
+	</div>
+</div>
